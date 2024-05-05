@@ -5,6 +5,7 @@ import Result from './Components/Result'
 
 
 
+
 let questions = [
   {
     id: 1,
@@ -69,9 +70,10 @@ function App() {
   
   return (
     <>
+        
        <h2>Բարև ձեզ սա Քուիզ է Բարսելոնայի երկրպագուների համար</h2>
        {
-         step !== questions.length ?  <Game question={question} onClickVariant={onClickVariant}/> : 
+         step !== questions.length ?  <Game question={question} step={step} onClickVariant={onClickVariant}/> : 
          <Result  questions={questions} correct={correct}/>
        }
        

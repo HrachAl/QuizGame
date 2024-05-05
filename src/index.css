@@ -5,7 +5,7 @@
 }
 
 h1{
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 ul{
@@ -35,7 +35,6 @@ ul li:active {
    background-color: rgb(26, 233, 26);
 }
 .progressbar{
-  max-width: 250px;
   height: 20px;
   color: rgb(231, 76, 76);
   border-radius: 50px;
@@ -45,8 +44,9 @@ ul li:active {
 
 .result{
   margin: 50px auto;
-  width: 400px;
+  width: 450px;
   height: 400px;
+  padding: 12px 6px;
   border-radius: 20px;
   background-color: rgb(212, 212, 212);
   border: 1px solid black;
@@ -63,6 +63,7 @@ ul li:active {
 .result button{
   cursor: pointer;
   margin-top: 50px;
+   font-size: 16px;
    width: 180px;
    height: 30px;
    border-radius: 20px;
@@ -89,11 +90,12 @@ ul li:active {
 
 .game{
   margin: 50px auto;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: max-content;
   border-radius: 20px;
   background-color: rgb(212, 212, 212);
   border: 1px solid black;
+  padding: 12px 6px;
 }
 
 h2{
